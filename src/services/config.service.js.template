@@ -2,7 +2,7 @@ angular.module('app').factory('ConfigService', [function() {
 
     var service = {};
 
-    service.apiBase = '';
+    service.apiBase = '${API_BASE}';
 
     return service;
 }]);
